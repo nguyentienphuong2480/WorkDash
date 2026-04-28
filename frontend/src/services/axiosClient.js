@@ -1,9 +1,8 @@
 import axios from "axios";
 
-const baseURL =
-  import.meta.env.VITE_API_URL || "https://workdash-1.onrender.com/api";
+const baseURL ="https://workdash-1.onrender.com/api";
 
-const axiosClient = axios.create({ baseURL });
+const axiosClient = axios.create({ baseURL,withCredentials: true });
 
 const logout = () => {
   localStorage.clear();
