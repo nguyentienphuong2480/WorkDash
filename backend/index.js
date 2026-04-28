@@ -18,7 +18,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://your-frontend-domain.vercel.app" // 👈 thêm domain FE
+      "https://work-dash-five.vercel.app/" 
     ],
     credentials: true
   })
